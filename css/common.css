@@ -48,6 +48,7 @@ body {
 }
 
 .recipe__link {
+  display: inline-block;
   text-decoration: none;
   color: #2b2a27;
   font-size: 14px;
