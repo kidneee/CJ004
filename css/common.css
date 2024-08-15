@@ -33,12 +33,24 @@ body {
 .recipe__text {
   margin-bottom: 80px;
 }
+@media screen and (max-width: 500px) {
+  .recipe__text {
+    padding: 0 20px;
+  }
+}
 
 .recipe__images {
   display: flex;
   justify-content: space-between;
   height: 500px;
   margin-bottom: 60px;
+}
+
+@media screen and (max-width: 500px) {
+  .recipe__images {
+    flex-direction: column;
+    height: auto;
+  }
 }
 
 .images__item {
